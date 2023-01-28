@@ -17,4 +17,7 @@ hr.solid{
     margin-bottom: 20px;
 }
 
+hr.thin-line{
+    border-top: 1px solid #00ccff;
+}
 

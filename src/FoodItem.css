@@ -1,10 +1,26 @@
+
+.food-item{
+    max-width:400px;
+    word-wrap: break-word;
+}
 .food-container{
     display:flex;
     justify-content: space-between;
-    max-width: 400px;
+    max-width:400px;
     line-height: 2;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.food-item > p{
+    margin-bottom: 5px;
 }
 
 .food-container > h4{
     color: #00ccff;
 }
+
+#food-price{
+    color: black;
+}
+
