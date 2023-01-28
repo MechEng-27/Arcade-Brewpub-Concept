@@ -1,0 +1,10 @@
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: #00ccff;
+    color: white;
+}

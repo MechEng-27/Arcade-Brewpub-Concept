@@ -1,0 +1,10 @@
+.food-container{
+    display:flex;
+    justify-content: space-between;
+    max-width: 400px;
+    line-height: 2;
+}
+
+.food-container > h4{
+    color: #00ccff;
+}

@@ -1,0 +1,25 @@
+.home {
+    background: url("images/Nintendo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.name-container > h1{
+    color:white;
+    font-size: 75px;
+}
+
+.name-container > p{
+    color: white;
+    font-size: 25px;
+}

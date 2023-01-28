@@ -1,0 +1,19 @@
+.menu-tabs{
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 50px;
+    line-height: 1.2;
+}
+
+.menu-content{
+    display:none;
+}
+
+.active-menu-heading{
+    color: #00ccff;
+}
+
+.active-menu-content{
+    display:block;
+}
