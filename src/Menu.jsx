@@ -1,6 +1,8 @@
 import React from "react"
 import { useState } from "react";
 import FoodItem from "./FoodItem.jsx"
+import SideItem from "./SideItem.jsx"
+import BeerItem from "./BeerItem.jsx"
 import "./Menu.css"
 import MenuData from "./MenuData.jsx"
 
@@ -11,11 +13,33 @@ export default function Menu(){
     const foodData = MenuData.food
     const mainMenu = foodData.map(food => {
         return (<FoodItem
+        key = {food.id}
         item = {food.item}
         description = {food.description}
         price = {food.price}
         />)
-    })
+    });
+
+    const sidesData = MenuData.sides
+    const sidesMenu = sidesData.map(side => {
+        return (<SideItem
+        key = {side.id}
+        item = {side.item}
+        description = {side.description}
+        price = {side.price}
+        />)
+    });
+
+    const beerData = MenuData.beer
+    const beerMenu = beerData.map(beer => {
+        return (<BeerItem
+        key = {beer.id}
+        item = {beer.item}
+        description = {beer.description}
+        price = {beer.price}
+        />)
+    });
+
 
     const activateTab = (index) => {
         setMenuState(index)
@@ -51,11 +75,11 @@ export default function Menu(){
                     <div 
                     className = {menuState === 2 ? "active-menu-content" :
                     "menu-content"}
-                    ><p>Test 2</p>
+                    >{sidesMenu}
                     </div>
                     <div className = {menuState === 3 ? "active-menu-content" :
                     "menu-content"}
-                    ><p>Test 3</p>
+                    >{beerMenu}
                     </div>
                 </div>
             </div>

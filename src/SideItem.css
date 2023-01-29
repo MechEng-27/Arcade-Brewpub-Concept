@@ -1,0 +1,24 @@
+.side-item{
+    max-width:400px;
+    word-wrap: break-word;
+}
+.side-container{
+    display:flex;
+    justify-content: space-between;
+    max-width:400px;
+    line-height: 2;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.side-item > p{
+    margin-bottom: 5px;
+}
+
+.side-container > h4{
+    color: #00ccff;
+}
+
+#side-price{
+    color: black;
+}
