@@ -2,6 +2,7 @@
 .about-container{
     display:flex;
     flex-wrap:wrap;
+    gap: 20px;
     justify-content: space-between;
 }
 
@@ -16,7 +17,7 @@
     justify-content: center;
     align-content: center;
     max-width: 600px;
-    text-align: center;
+    text-align: left;
 }
 
 .about-section-text >p {
@@ -27,8 +28,9 @@
 .information-container{
     display:flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     margin-top: 20px;
-    gap: 50px;
+    gap: 20px;
     line-height: 1.2;
 }
 

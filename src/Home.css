@@ -3,21 +3,24 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: auto;
 }
 
 .name-container{
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 10px;
-
+    gap: 20px;
+ 
 }
 
 .name-container > h1{
     color:white;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 .name-container > p{
