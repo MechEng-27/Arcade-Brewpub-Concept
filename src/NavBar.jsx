@@ -3,12 +3,14 @@ import "./NavBar.css"
 
 export default function test() {
     return (
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Menu</li>
-            <li>Games</li>
-            <li>Contact</li>
-        </ul>
+        <div className="nav-bar">
+            <ul id = "nav-list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Menu</li>
+                <li>Games</li>
+                <li>Contact</li>
+            </ul>
+        </div>
     )
 }

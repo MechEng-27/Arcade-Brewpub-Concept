@@ -1,29 +1,42 @@
-.home {
+/* .home {
     background: url("images/Nintendo.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
+} */
+
+.home{
+    position: relative;
+}
+
+#home-picture{
+    width: 100%;
+    padding:0;
+    vertical-align: middle;
 }
 
 .name-container{
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    flex-wrap:wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 10px;
-    gap: 20px;
+    gap: 5px;
  
 }
 
 .name-container > h1{
     color:white;
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .name-container > p{
     color: white;
-    font-size: 25px;
+    font-size: 15px;
 }

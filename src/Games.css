@@ -1,0 +1,34 @@
+.games-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.arcade-games{
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.pinball-machines{
+    display:flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#lineup-note{
+    margin-top: 10px;
+    background: #4d4d4b;
+    color: #00ccff;
+    padding: 5px;
+}
+
+#lineup-note:hover{
+    color: white;
+}

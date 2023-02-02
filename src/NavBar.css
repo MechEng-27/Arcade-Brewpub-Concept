@@ -1,5 +1,10 @@
+.nav-bar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
 
-ul {
+#nav-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
