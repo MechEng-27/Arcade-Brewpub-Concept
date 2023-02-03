@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #FFFFF0;
+}
+
+
 .container{
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 80%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFF0;
@@ -15,10 +20,15 @@
 
 hr.solid{
     border-top: 5px solid #00ccff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 hr.thin-line{
     border-top: 1px solid #00ccff;
+}
+
+.section-title{
+    color: #4d4d4b;
+    margin-bottom: 10px;
 }
 

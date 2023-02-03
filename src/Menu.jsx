@@ -48,7 +48,8 @@ export default function Menu(){
     return(
         <div className = "menu">
             <div className = "container">
-                <hr className= "solid"></hr>
+                <h2 className = "section-title">Menu</h2>
+                <hr className= "thin-line"></hr>
                 <div className = "menu-tabs">
                     <h3 
                     className = {menuState === 1 ? "active-menu-heading" :

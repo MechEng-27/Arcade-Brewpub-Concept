@@ -46,16 +46,17 @@ export default function Games(){
     return(
         <div className = "games">
             <div className ="container">
-                <hr className= "solid"></hr>
+                <h2 className = "section-title">Games</h2>
+                <hr className= "thin-line"></hr>
                     <div className = "games-container">
                         <div className = "arcade-container">
-                            <h3>Current Arcade Games</h3>
+                            <h3 className = "section-title">Current Arcade Games</h3>
                             <div className = "arcade-games">
                                 {arcadeGameList}
                             </div>
                         </div>
                         <div className = "pinball-container">
-                            <h3>Current Pinball Machines</h3>
+                            <h3 className = "section-title">Current Pinball Machines</h3>
                             <div className = "pinball-machines">
                                 {pinballMachineList}
                             </div>

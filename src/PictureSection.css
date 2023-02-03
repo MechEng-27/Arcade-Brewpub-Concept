@@ -1,0 +1,42 @@
+.picture-section{
+    width: 100%;
+}
+
+.active-picture{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.inactive-picture{
+    display: none;
+}
+
+.circle-buttons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.round-button{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #d5d5d5;
+    border: none;
+}
+
+.active-round-button{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:#00ccff;
+    border: none;
+}
+
+.round-button:hover{
+    background-color: #4d4d4b;
+}
+
+
