@@ -7,7 +7,7 @@ export default function About(){
         <div className = "about">
             <div className = "container">
                 <hr className ="solid"></hr>
-                <h2 className = "section-title">About</h2>
+                <h2 className = "section-title" id = "about-title">About</h2>
                 <div className = "about-container">
                     <img src ="src/images/Pinball.jpg" id= "about-picture"></img>
                     <div className = "about-section-text">

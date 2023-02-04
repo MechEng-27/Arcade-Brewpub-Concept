@@ -11,5 +11,9 @@
     list-style-type: none;
     height: 50px;
     background-color: #00ccff;
-    color: white;
+}
+
+#nav-list li > a{
+    text-decoration: none;
+    color:white;
 }

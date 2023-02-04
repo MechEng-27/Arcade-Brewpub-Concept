@@ -48,7 +48,7 @@ export default function Menu(){
     return(
         <div className = "menu">
             <div className = "container">
-                <h2 className = "section-title">Menu</h2>
+                <h2 className = "section-title" id ="menu-title">Menu</h2>
                 <hr className= "thin-line"></hr>
                 <div className = "menu-tabs">
                     <h3 

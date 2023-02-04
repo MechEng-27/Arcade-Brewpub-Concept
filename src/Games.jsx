@@ -46,7 +46,7 @@ export default function Games(){
     return(
         <div className = "games">
             <div className ="container">
-                <h2 className = "section-title">Games</h2>
+                <h2 className = "section-title" id = "games-title">Games</h2>
                 <hr className= "thin-line"></hr>
                     <div className = "games-container">
                         <div className = "arcade-container">
