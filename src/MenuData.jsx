@@ -2,7 +2,8 @@ export default {
         food:[
                 {id: 1,
                 item: "Mario Burger",
-                description: "test",
+                description: `1/2# beef patty with lettuce, tomato, onion, 
+                american cheese, mushroom and fireball sauce!!!`,
                 price: "$4"
                 },
                 {id: 2,

@@ -9,7 +9,7 @@ export default function test() {
                 <li><a href = "#about-title" >About</a></li>
                 <li><a href = "#menu-title" >Menu</a></li>
                 <li><a href = "#games-title" >Games</a></li>
-                <li><a href = "" >Contact</a></li>
+                <li><a href = "#contact-title" >Contact</a></li>
             </ul>
         </div>
     )

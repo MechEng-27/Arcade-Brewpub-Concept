@@ -16,13 +16,20 @@ export default function Contact() {
                 <div className = "contact-form-container">
                     <h4 className = "contact-form-label">Name</h4>
                     <div className ="names-container">
-                        <input type = "text" id = "first-name"></input>
-                        <input type = "text" id = "last-name"></input>
+                        <div id = "first-name-container">
+                            <input type = "text" id = "first-name"></input>
+                            <p>First name</p>
+                        </div>
+                        <div id = "last-name-container">
+                            <input type = "text" id = "last-name"></input>
+                            <p>Last Name</p>
+                        </div>
                     </div>
                     <h4 className = "contact-form-label">Email *</h4>
                     <input type = "email" id = "email"></input>
                     <h4 className = "contact-form-label">Message *</h4>
                     <textarea id = "message"></textarea>
+                    <input type = "button" id ="contact-submit-button" value = "Submit"></input>
                 </div>
             </div>
         </div>

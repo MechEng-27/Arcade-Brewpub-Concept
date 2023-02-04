@@ -55,7 +55,7 @@ export default function Menu(){
                     className = {menuState === 1 ? "active-menu-heading" :
                     "menu-heading"}
                     onClick = {() => activateTab(1)}
-                    >Menu</h3>
+                    >Main Menu</h3>
                     <h3 
                     className = {menuState === 2 ? "active-menu-heading" :
                     "menu-heading"}
