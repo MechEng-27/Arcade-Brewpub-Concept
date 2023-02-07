@@ -1,7 +1,13 @@
 import React from "react"
+import { useForm } from "react-hook-form";
 import "./Contact.css"
 
 export default function Contact() {
+    const {register, handleSubmit, formState: { errors }, reset} = useForm();
+    const onSubmit = (data) => {
+        console.log(data)
+        reset()
+    }
     return(
         <div className = "container">
             <h2 className = "section-title" id = "contact-title">
@@ -13,24 +19,26 @@ export default function Contact() {
                     <p>What is your favorite beer style?</p>
                     <p>We are listening!!!</p>
                 </div>
-                <div className = "contact-form-container">
+                <form className = "contact-form-container" onSubmit={handleSubmit(onSubmit)}>
                     <h4 className = "contact-form-label">Name</h4>
                     <div className ="names-container">
                         <div id = "first-name-container">
-                            <input type = "text" id = "first-name"></input>
+                            <input type = "text" id = "first-name" {...register("first-name")}></input>
                             <p>First name</p>
                         </div>
                         <div id = "last-name-container">
-                            <input type = "text" id = "last-name"></input>
+                            <input type = "text" id = "last-name" {...register("last-name")}></input>
                             <p>Last Name</p>
                         </div>
                     </div>
                     <h4 className = "contact-form-label">Email *</h4>
-                    <input type = "email" id = "email"></input>
+                    <input type = "email" id = "email" {...register("email", {required: true})}></input>
+                    {errors.email?.type === 'required' && <p className = "error" role="alert">Please enter vaild email address</p>}
                     <h4 className = "contact-form-label">Message *</h4>
-                    <textarea id = "message"></textarea>
-                    <input type = "button" id ="contact-submit-button" value = "Submit"></input>
-                </div>
+                    <textarea id = "message" {...register("message", {required:true})}></textarea>
+                    {errors.message?.type === 'required' && <p className = "error" role="alert">Message is required</p>}
+                    <input type = "submit" id ="contact-submit-button" value = "Submit"></input>
+                </form>
             </div>
         </div>
     )
