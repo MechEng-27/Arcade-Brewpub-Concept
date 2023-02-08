@@ -7,7 +7,7 @@ export default {
         {id:3,
         name:"NBA Jam"},
         {id:4,
-        name:"Sunset Riders"
+        name:"Sunset Riders "
         }
     ],
 
