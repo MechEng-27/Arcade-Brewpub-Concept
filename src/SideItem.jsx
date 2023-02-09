@@ -1,5 +1,5 @@
-import React from "react"
-import "./SideItem.css"
+import React from "react";
+import "./SideItem.css";
 
 export default function SideItem(props){
     return(
@@ -11,5 +11,5 @@ export default function SideItem(props){
             <p>{props.description}</p>
             <hr className = "thin-line"></hr>
         </div>
-    )
-}
+    );
+};

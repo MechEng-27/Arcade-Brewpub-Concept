@@ -1,5 +1,5 @@
 import React from "react";
-import "./FoodItem.css"
+import "./FoodItem.css";
 
 export default function FoodItem(props) {
     return(
@@ -11,5 +11,5 @@ export default function FoodItem(props) {
             <p>{props.description}</p>
             <hr className = "thin-line"></hr>
         </div>
-    )
-}
+    );
+};

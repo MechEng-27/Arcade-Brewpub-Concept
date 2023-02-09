@@ -1,5 +1,5 @@
-import React from "react"
-import "./Footer.css"
+import React from "react";
+import "./Footer.css";
 
 export default function Footer(){
     var currentYear = new Date().getFullYear()
@@ -7,5 +7,5 @@ export default function Footer(){
         <footer id = "footer">
             <p>&#169; Retro Wave {currentYear}</p>
         </footer>
-    )
-}
+    );
+};

@@ -1,15 +1,16 @@
 import React from "react"
 import "./About.css"
-import NavBar from "./Navbar"
 
 export default function About(){
     return(
-        <div className = "about">
+        <section className = "about">
             <div className = "container">
                 <hr className ="solid"></hr>
                 <h2 className = "section-title" id = "about-title">About</h2>
                 <div className = "about-container">
+                    <div id = "about-picture-container">
                     <img src ="src/images/Pinball.jpg" id= "about-picture"></img>
+                    </div>
                     <div className = "about-section-text">
                         <p>
                             Retro Wave is a retro gaming themed Brewpub featuring more than 60 arcade games,
@@ -33,7 +34,10 @@ export default function About(){
                     <div id = "contact-container">
                         <h3 className = "info-container-heading">Contact</h3>
                         <p>Phone: 414-555-0100 </p>
-                        <p>Have a question? send us an email</p>
+                        <p>
+                            Have a question? send us a <a href = "#contact-title" 
+                            style = {{color: "#00ccff"}}>message</a>
+                        </p>
                     </div>
                     <div id = "address-container">
                         <h3 className = "info-container-heading">Address</h3>
@@ -42,6 +46,6 @@ export default function About(){
                     </div>
                 </div>
             </div>
-        </div>
-    )
-}
+        </section>
+    );
+};

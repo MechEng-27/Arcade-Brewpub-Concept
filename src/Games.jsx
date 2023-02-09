@@ -1,7 +1,7 @@
-import React from "react"
-import "./Games.css"
-import GamesData from "./GamesData"
-import GameItem from "./GameItem"
+import React from "react";
+import "./Games.css";
+import GamesData from "./GamesData";
+import GameItem from "./GameItem";
 
 export default function Games(){
 
@@ -10,10 +10,10 @@ export default function Games(){
         const nameB = b.name.toLowerCase();
         if (nameA < nameB) {
             return -1;
-        }
+        };
         if (nameA > nameB) {
             return 1;
-        }
+        };
         return 0;
     });
 
@@ -22,10 +22,10 @@ export default function Games(){
         const nameB = b.name.toLowerCase();
         if (nameA < nameB) {
             return -1;
-        }
+        };
         if (nameA > nameB) {
             return 1;
-        }
+        };
         return 0;
     });
 
@@ -33,15 +33,15 @@ export default function Games(){
         return(<GameItem
         key = {game.id}
         name = {game.name}
-        />)
-    })
+        />);
+    });
 
     const pinballMachineList = pinballMachines.map(machine => {
         return(<GameItem
         key = {machine.id}
         name = {machine.name}
-        />)
-    })
+        />);
+    });
 
     return(
         <div className = "games">
@@ -66,5 +66,5 @@ export default function Games(){
                     </div>
             </div>
         </div>
-    )
-}
+    );
+};

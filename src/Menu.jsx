@@ -1,10 +1,10 @@
-import React from "react"
+import React from "react";
 import { useState } from "react";
-import FoodItem from "./FoodItem.jsx"
-import SideItem from "./SideItem.jsx"
-import BeerItem from "./BeerItem.jsx"
-import "./Menu.css"
-import MenuData from "./MenuData.jsx"
+import FoodItem from "./FoodItem.jsx";
+import SideItem from "./SideItem.jsx";
+import BeerItem from "./BeerItem.jsx";
+import "./Menu.css";
+import MenuData from "./MenuData.jsx";
 
 export default function Menu(){
 
@@ -42,11 +42,11 @@ export default function Menu(){
 
 
     const activateTab = (index) => {
-        setMenuState(index)
+        setMenuState(index);
     };
 
     return(
-        <div className = "menu">
+        <section className = "menu">
             <div className = "container">
                 <h2 className = "section-title" id ="menu-title">Menu</h2>
                 <hr className= "thin-line"></hr>
@@ -84,6 +84,6 @@ export default function Menu(){
                     </div>
                 </div>
             </div>
-        </div>
-    )
-}
+        </section>
+    );
+};

@@ -3,15 +3,15 @@ export default {
                 {id: 1,
                 item: "Plumber's Burger",
                 description: `1/2# beef patty with lettuce, tomato, onion, 
-                american cheese, mushroom and fireball sauce!!! Served with fries.`,
-                price: "$6"
+                american cheese, mushroom and fireball sauce!!! Served with pub fries.`,
+                price: "$7"
                 },
 
                 {id: 2,
                 item: "Classic Club",
                 description: `Toasted bread, chicken, bacon, lettuce, tomato
                 with housemade mayo. Served with chips and a pickle.`,
-                price: "$5"
+                price: "$6"
                 },
 
                 {id: 3,
@@ -35,6 +35,21 @@ export default {
                 Served with mashed potatoes and green beans.`,
                 price: "$12"
                 },
+
+                {id: 6,
+                item: "Detroit Style Pizza",
+                description: `10" x 14" (8 slice) Detroit style pizza made to order. Available toppings: 
+                Pepperoni, Sausage, Bacon, Ham, Onion, Green Pepper, Green Olive, Mushroom, 
+                Jalapeno and Roasted Tomato. Cheese is a Wisconsin Brick and mozzarella blend.`,
+                price: "$15"},
+
+                {id: 7,
+                item: "Street Tacos",
+                description: `3 tacos served in corn tortillas with cilantro, white onion and a 
+                choice between chicken or Al pastor. Comes with limes and house red & green sauce.`,
+                price: "$5"
+                }
+
 
         ],
         sides:[
@@ -64,36 +79,61 @@ export default {
                 sticks served with marinara sauce.`,
                 price: "$4"
                 },
-
         ],
 
         beer:[
                 {id: 1,
-                item: "Vampire Vanquisher Red",
-                description: `A blood red ale with a strong hop bite from Chinook hops
-                (7% ABV / 70 IBUs)`,
+                item: "Sidewalk Fighter Ale II",
+                description: `A follow up to our old Sidewalk Fighter Ale, this golden ale is 
+                clean and sessionable (4.5% ABV / 20 IBUs).`,
                 price: "$5"
                 },
 
                 {id: 2,
-                item: "Double Dragon Fruit IPA",
-                description: `A refreshing IPA hopped with Cascade and Galaxy hops and 
-                a heavy dose of Dragon Fruit (6% ABV / 60 IBUs)`,
+                item: "Double Dragon Fruit APA",
+                description: `A refreshing APA hopped with Cascade and Galaxy hops and 
+                a heavy dose of Dragon Fruit (5.5% ABV / 40 IBUs).`,
                 price: "$5"
                 },
 
                 {id: 3,
-                item: "Sidewalk Fighter Ale II",
-                description: `A follow up to our old Sidewalk Fighter Ale, this golden ale is 
-                clean and sessionable (4.5% ABV / 20 IBUs)`,
-                price: "$5"
+                item: "High Score IPA",
+                description: `West Coast Styled IPA with Cascade, Centennial and Columbus 
+                hops. Bitterness is balanced with a light crystal malt addition 
+                (7% ABV / 70 IBUs).`
                 },
 
                 {id: 4,
                 item: "Blue Bomber Sour",
                 description: `MEGA blueberry additon makes this kettle sour ready to save
-                the day!!! (5% ABV / 5 IBUs)`,
+                the day!!! (5% ABV / 5 IBUs).`,
                 price: "$5"
+                },
+
+                {id: 5,
+                item: "German Pils",
+                description: `Classic styled German Pilsner with assertive noble hop
+                presence and a crisp, dry finish (5.5% ABV / 35 IBUs).`
+                },
+
+                {id: 6,
+                item: "Oktoberfest",
+                description: `Our tradional styled Oktoberfest has a deep golden color,
+                with a lightly sweet flavor and floral hop aroma. A semi dry finish keeps
+                this beer highly sessionable (5.8% ABV / 25 IBUs).`
+                },
+
+                {id: 7,
+                item: "Vampire Vanquisher Red",
+                description: `A blood red ale with a strong hop bite from Chinook hops
+                (7% ABV / 70 IBUs).`,
+                price: "$5"
+                },
+
+                {id: 8,
+                item: "Retro Oatmeal Stout",
+                description: `Dark and smooth oatmeal stout with a medium-dry bittersweet 
+                chcolate finish (5% ABV / 34 IBUs).`
                 },
         ]
 }

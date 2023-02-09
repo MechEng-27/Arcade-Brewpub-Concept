@@ -1,9 +1,9 @@
-import React from "react"
-import "./NavBar.css"
+import React from "react";
+import "./NavBar.css";
 
-export default function test() {
+export default function NavBar() {
     return (
-        <div className="nav-bar">
+        <nav className="nav-bar">
             <ul id = "nav-list">
                 <li><a href = "#home-title" >Home</a></li>
                 <li><a href = "#about-title" >About</a></li>
@@ -11,6 +11,6 @@ export default function test() {
                 <li><a href = "#games-title" >Games</a></li>
                 <li><a href = "#contact-title" >Contact</a></li>
             </ul>
-        </div>
-    )
-}
+        </nav>
+    );
+};

@@ -1,5 +1,5 @@
-import react from "react"
-import "./BeerItem.css"
+import React from "react";
+import "./BeerItem.css";
 
 export default function BeerItem(props) {
     return(
@@ -11,5 +11,5 @@ export default function BeerItem(props) {
             <p>{props.description}</p>
             <hr className = "thin-line"></hr>
         </div>
-    )
-}
+    );
+};
