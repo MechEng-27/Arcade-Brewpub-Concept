@@ -6,10 +6,11 @@ export default function BeerItem(props) {
         <div className = "beer-item">
             <div className = "beer-container">
                 <h4>{props.item}</h4>
-                <h4 id = "beer-price">{props.price}</h4>
+                <h4 className = "beer-price">{props.price}</h4>
             </div>
             <p>{props.description}</p>
-            <hr className = "thin-line"></hr>
+            <p className = "beer-stats">{props.stats}</p>
+            <hr className = "menu-thin-line"></hr>
         </div>
     );
 };

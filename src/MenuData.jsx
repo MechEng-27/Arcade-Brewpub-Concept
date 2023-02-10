@@ -46,7 +46,7 @@ export default {
                 {id: 7,
                 item: "Street Tacos",
                 description: `3 tacos served in corn tortillas with cilantro, white onion and a 
-                choice between chicken or Al pastor. Comes with limes and house red & green sauce.`,
+                choice of chicken or Al pastor. Comes with limes and house red & green sauce.`,
                 price: "$5"
                 }
 
@@ -85,55 +85,65 @@ export default {
                 {id: 1,
                 item: "Sidewalk Fighter Ale II",
                 description: `A follow up to our old Sidewalk Fighter Ale, this golden ale is 
-                clean and sessionable (4.5% ABV / 20 IBUs).`,
+                clean and sessionable.`,
+                stats:"(4.5% ABV / 20 IBUs)",
                 price: "$5"
                 },
 
                 {id: 2,
                 item: "Double Dragon Fruit APA",
                 description: `A refreshing APA hopped with Cascade and Galaxy hops and 
-                a heavy dose of Dragon Fruit (5.5% ABV / 40 IBUs).`,
+                a heavy dose of Dragon Fruit.`,
+                stats: "(5.5% ABV / 40 IBUs)",
                 price: "$5"
                 },
 
                 {id: 3,
                 item: "High Score IPA",
                 description: `West Coast Styled IPA with Cascade, Centennial and Columbus 
-                hops. Bitterness is balanced with a light crystal malt addition 
-                (7% ABV / 70 IBUs).`
+                hops. Bitterness is balanced with a light crystal malt addition.`,
+                stats: "(7% ABV / 70 IBUs)",
+                price: "$5"
                 },
 
                 {id: 4,
                 item: "Blue Bomber Sour",
                 description: `MEGA blueberry additon makes this kettle sour ready to save
-                the day!!! (5% ABV / 5 IBUs).`,
+                the day!!!`,
+                stats: "(5% ABV / 5 IBUs)",
                 price: "$5"
                 },
 
                 {id: 5,
                 item: "German Pils",
                 description: `Classic styled German Pilsner with assertive noble hop
-                presence and a crisp, dry finish (5.5% ABV / 35 IBUs).`
+                presence and a crisp, dry finish.`,
+                stats: "(5.5% ABV / 35 IBUs)",
+                price: "$5"
                 },
 
                 {id: 6,
                 item: "Oktoberfest",
                 description: `Our tradional styled Oktoberfest has a deep golden color,
                 with a lightly sweet flavor and floral hop aroma. A semi dry finish keeps
-                this beer highly sessionable (5.8% ABV / 25 IBUs).`
+                this beer highly sessionable.`,
+                stats: "(5.8% ABV / 25 IBUs)",
+                price: "$5"
                 },
 
                 {id: 7,
                 item: "Vampire Vanquisher Red",
-                description: `A blood red ale with a strong hop bite from Chinook hops
-                (7% ABV / 70 IBUs).`,
+                description: `A blood red ale with a strong hop bite from Chinook hops.`,
+                stats: "(7% ABV / 70 IBUs)",
                 price: "$5"
                 },
 
                 {id: 8,
                 item: "Retro Oatmeal Stout",
                 description: `Dark and smooth oatmeal stout with a medium-dry bittersweet 
-                chcolate finish (5% ABV / 34 IBUs).`
+                chocolate finish.`,
+                stats: "(5% ABV / 34 IBUs)",
+                price: "$5"
                 },
         ]
 }

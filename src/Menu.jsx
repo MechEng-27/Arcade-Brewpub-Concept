@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import FoodItem from "./FoodItem.jsx";
-import SideItem from "./SideItem.jsx";
-import BeerItem from "./BeerItem.jsx";
+import MenuItem from "./MenuItem.jsx";
 import "./Menu.css";
+import BeerItem from "./BeerItem.jsx"
 import MenuData from "./MenuData.jsx";
 
 export default function Menu(){
@@ -12,7 +11,7 @@ export default function Menu(){
 
     const foodData = MenuData.food
     const mainMenu = foodData.map(food => {
-        return (<FoodItem
+        return (<MenuItem
         key = {food.id}
         item = {food.item}
         description = {food.description}
@@ -22,7 +21,7 @@ export default function Menu(){
 
     const sidesData = MenuData.sides
     const sidesMenu = sidesData.map(side => {
-        return (<SideItem
+        return (<MenuItem
         key = {side.id}
         item = {side.item}
         description = {side.description}
@@ -36,6 +35,7 @@ export default function Menu(){
         key = {beer.id}
         item = {beer.item}
         description = {beer.description}
+        stats = {beer.stats}
         price = {beer.price}
         />)
     });

@@ -61,9 +61,9 @@ export default function Games(){
                                 {pinballMachineList}
                             </div>
                         </div>
-                        <p id = "lineup-note">Arcade & pinball lineup is changed up frequently
-                         - please check back again soon!!!</p>
                     </div>
+                    <p id = "lineup-note">Arcade & pinball lineup is changed up frequently
+                            - please check back again soon!!!</p>
             </div>
         </div>
     );

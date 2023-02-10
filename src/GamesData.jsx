@@ -85,7 +85,7 @@ export default {
         name: "Track & Field"},
 
         {id: 29,
-        name: "House of the Dead 2"},
+        name: "Space Invaders"},
 
         {id: 30,
         name: "Mortal Kombat 2"},
@@ -195,6 +195,6 @@ export default {
         name: "Dirty Harry"},
 
         {id:15,
-        name: "Create from the Black Lagoon"},
+        name: "Creature from the Black Lagoon"},
     ]
 };

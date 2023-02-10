@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Helvetica", Arial, sans-serif;
 }
 
 body {
@@ -10,8 +11,8 @@ body {
 
 .container{
     margin-top: 20px;
-    margin-bottom: 20px;
-    width: 75%;
+    margin-bottom: 40px;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFF0;
@@ -26,8 +27,18 @@ hr.thin-line{
     border-top: 1px solid #00ccff;
 }
 
+hr.menu-thin-line{
+    border-top: 1px solid #00ccff;
+    margin-left: 5px;
+}
+
 .section-title{
     color: #4d4d4b;
     margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 85%;
+    }   
+}

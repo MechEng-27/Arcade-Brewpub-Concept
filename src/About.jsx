@@ -7,11 +7,12 @@ export default function About(){
             <div className = "container">
                 <hr className ="solid"></hr>
                 <h2 className = "section-title" id = "about-title">About</h2>
+                <hr className= "thin-line"></hr>
                 <div className = "about-container">
                     <div id = "about-picture-container">
-                    <img src ="src/images/Pinball.jpg" id= "about-picture"></img>
+                        <img src ="src/images/Pinball.jpg"></img>
                     </div>
-                    <div className = "about-section-text">
+                    <div id = "about-section-text">
                         <p>
                             Retro Wave is a retro gaming themed Brewpub featuring more than 60 arcade games,
                             20 pinball machines and three classic skee-ball alleys all cost only 25 cents
@@ -35,7 +36,7 @@ export default function About(){
                         <h3 className = "info-container-heading">Contact</h3>
                         <p>Phone: 414-555-0100 </p>
                         <p>
-                            Have a question? send us a <a href = "#contact-title" 
+                            Have a question? Send us a <a href = "#contact-title" 
                             style = {{color: "#00ccff"}}>message</a>
                         </p>
                     </div>

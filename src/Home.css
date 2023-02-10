@@ -8,6 +8,7 @@
     vertical-align: middle;
 }
 
+
 .name-container{
     position: absolute;
     width: 100%;
@@ -26,10 +27,18 @@
 
 .name-container > h1{
     color:white;
-    font-size: 75px;
+    font-size: 8vw;
 }
 
 .name-container > p{
     color: white;
-    font-size: 15px;
+    font-size: 1.6vw;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .name-container > p{
+        color: white;
+        font-size: 3.5vw;
+    } 
 }
