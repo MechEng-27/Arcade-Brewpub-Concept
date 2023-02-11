@@ -1,0 +1,28 @@
+.menu-item{
+    max-width:600px;
+    word-wrap: break-word;
+}
+
+.item-container{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    line-height: 2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.menu-item > p{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.item-container > h4{
+    color: #00ccff;
+}
+
+#item-price{
+    color: #00ccff;
+}
+
