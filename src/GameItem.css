@@ -4,6 +4,7 @@
     text-align: center;
     padding: 5px;
     list-style: none;
+    width: fit-contet;
 }
 
 .game-item:hover{
