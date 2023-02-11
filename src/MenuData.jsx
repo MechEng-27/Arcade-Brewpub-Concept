@@ -93,7 +93,7 @@ export default {
                 {id: 2,
                 item: "Double Dragon Fruit APA",
                 description: `A refreshing APA hopped with Cascade and Galaxy hops and 
-                a heavy dose of Dragon Fruit.`,
+                a heavy dose of dragon fruit.`,
                 stats: "(5.5% ABV / 40 IBUs)",
                 price: "$5"
                 },

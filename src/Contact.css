@@ -6,7 +6,7 @@
     margin-top: 20px;
 }
 
-.feedback-questions{
+#feedback-questions{
     font-size: 20px;
     line-height: 1.25;
     color: #4d4d4b;
@@ -28,7 +28,6 @@
     width: 100%;
 }
 
-
 .contact-form-label{
     color: #4d4d4b;
 }
@@ -39,6 +38,10 @@
     width: 48%;
     color:#4d4d4b;
 
+}
+
+#first-name-container > p, #last-name-container > p{
+    margin-top: 5px;
 }
 
 #first-name, #last-name {

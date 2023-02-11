@@ -27,7 +27,7 @@ export default function Contact() {
                     Contact Retro Wave</h2>
                 <hr className = "thin-line"></hr>
                 <div className = "contact-main-container">
-                    <div className = "feedback-questions">
+                    <div id = "feedback-questions">
                         <p>What games do you want us to get?</p>
                         <p>What is your favorite beer style?</p>
                         <p>We are listening!!!</p>

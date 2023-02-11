@@ -16,6 +16,7 @@
 .menu-item > p{
     margin-bottom: 5px;
     margin-left: 5px;
+    line-height: 1.2;
 }
 
 .item-container > h4{

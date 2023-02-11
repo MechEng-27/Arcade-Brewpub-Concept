@@ -14,14 +14,13 @@ export default function About(){
                     </div>
                     <div id = "about-section-text">
                         <p>
-                            Retro Wave is a retro gaming themed Brewpub featuring more than 60 arcade games,
-                            20 pinball machines and three classic skee-ball alleys all cost only 25 cents
-                            per play. Additionally, there are numerous previous generation home consoles
-                            on free play!
+                            Retro Wave is a retro gaming themed brewpub featuring 40+ arcade games, 10+ pinball machines
+                            and retro console gaming. All arcade games and pinball machines cost only 25 cents to play
+                            while retro consoles are on free play. 
                         </p>
                         <p>
-                            Our beer menu features a wide variety of beer styles that are brewed on site in 
-                            our 1bbl brewing system. We also have a full kitchen serving up your favorite pub foods.
+                            We also brew a wide variety of craft beer including classic and modern styles on our 1 bbl 
+                            brewing system. Retro Wave also has a full kitchen serving up all of your favorite pub foods.
                         </p>
                     </div>
                 </div>

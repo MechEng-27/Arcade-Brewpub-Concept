@@ -8,38 +8,43 @@ import MenuData from "./MenuData.jsx";
 export default function Menu(){
 
     const [menuState, setMenuState] = useState(1);
+    const [mainMenu, setMainMenu] = useState();
+    const [sidesMenu, setSidesMenu] = useState();
+    const [beerMenu, setBeerMenu] = useState();
 
-    const foodData = MenuData.food
-    const mainMenu = foodData.map(food => {
-        return (<MenuItem
-        key = {food.id}
-        item = {food.item}
-        description = {food.description}
-        price = {food.price}
-        />)
-    });
+    React.useEffect(() => {
+        const foodData = MenuData.food
+        setMainMenu(foodData.map(food => {
+            return (<MenuItem
+            key = {food.id}
+            item = {food.item}
+            description = {food.description}
+            price = {food.price}
+            />)
+        }));
 
-    const sidesData = MenuData.sides
-    const sidesMenu = sidesData.map(side => {
-        return (<MenuItem
-        key = {side.id}
-        item = {side.item}
-        description = {side.description}
-        price = {side.price}
-        />)
-    });
+        const sidesData = MenuData.sides
+        setSidesMenu(sidesData.map(side => {
+            return (<MenuItem
+            key = {side.id}
+            item = {side.item}
+            description = {side.description}
+            price = {side.price}
+            />)
+        }));
 
-    const beerData = MenuData.beer
-    const beerMenu = beerData.map(beer => {
-        return (<BeerItem
-        key = {beer.id}
-        item = {beer.item}
-        description = {beer.description}
-        stats = {beer.stats}
-        price = {beer.price}
-        />)
-    });
-
+        const beerData = MenuData.beer
+        setBeerMenu(beerData.map(beer => {
+            return (<BeerItem
+            key = {beer.id}
+            item = {beer.item}
+            description = {beer.description}
+            stats = {beer.stats}
+            price = {beer.price}
+            />)
+        }));
+        
+    }, []);
 
     const activateTab = (index) => {
         setMenuState(index);

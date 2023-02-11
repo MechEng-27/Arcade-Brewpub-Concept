@@ -1,11 +1,33 @@
 #footer {
-    color: white;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background: #00ccff;
     height: 25vh;
+}
+
+#copyright {
+    margin-top: 10px;
+    color: white;
 }
 
 #footer > p{
     color: white;
     padding-top: 10px;
 }
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 30px;
+}
+
+.social-icons > img{
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+
