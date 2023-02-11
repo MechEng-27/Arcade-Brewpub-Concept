@@ -10,7 +10,7 @@ export default function About(){
                 <hr className= "thin-line"></hr>
                 <div className = "about-container">
                     <div id = "about-picture-container">
-                        <img src ="src/images/Pinball.jpg"></img>
+                        <img src ="/images/Pinball.jpg"></img>
                     </div>
                     <div id = "about-section-text">
                         <p>
