@@ -36,7 +36,7 @@ export default function About(){
                         <p>Phone: 414-555-0100 </p>
                         <p>
                             Have a question? Send us a <a href = "#contact-title" 
-                            style = {{color: "#00ccff"}}>message</a>
+                            style = {{color: "#009fd4"}}>message</a>
                         </p>
                     </div>
                     <div id = "address-container">

@@ -1,48 +1,56 @@
 import React from "react";
+import { useState } from "react";
 import "./Games.css";
 import GamesData from "./GamesData";
 import GameItem from "./GameItem";
 
 export default function Games(){
 
-    const arcadeGames = GamesData.arcade.sort((a,b) => {
-        const nameA = a.name.toLowerCase();
-        const nameB = b.name.toLowerCase();
-        if (nameA < nameB) {
-            return -1;
-        };
-        if (nameA > nameB) {
-            return 1;
-        };
-        return 0;
-    });
+    const [arcadeList, setArcadeList] = useState();
+    const [pinballList, setPinballList] = useState();
 
-    const pinballMachines = GamesData.pinball.sort((a,b) => {
-        const nameA = a.name.toLowerCase();
-        const nameB = b.name.toLowerCase();
-        if (nameA < nameB) {
-            return -1;
-        };
-        if (nameA > nameB) {
-            return 1;
-        };
-        return 0;
-    });
+    React.useEffect(() => {
 
-    const arcadeGameList = arcadeGames.map(game => {
-        return(<GameItem
-        key = {game.id}
-        name = {game.name}
-        />);
-    });
+        const arcadeGames = GamesData.arcade.sort((a,b) => {
+            const nameA = a.name.toLowerCase();
+            const nameB = b.name.toLowerCase();
+            if (nameA < nameB) {
+                return -1;
+            };
+            if (nameA > nameB) {
+                return 1;
+            };
+            return 0;
+        });
 
-    const pinballMachineList = pinballMachines.map(machine => {
-        return(<GameItem
-        key = {machine.id}
-        name = {machine.name}
-        />);
-    });
+        const pinballMachines = GamesData.pinball.sort((a,b) => {
+            const nameA = a.name.toLowerCase();
+            const nameB = b.name.toLowerCase();
+            if (nameA < nameB) {
+                return -1;
+            };
+            if (nameA > nameB) {
+                return 1;
+            };
+            return 0;
+        });
 
+        setArcadeList(arcadeGames.map(game => {
+            return(<GameItem
+            key = {game.id}
+            name = {game.name}
+            />);
+        }));
+
+        setPinballList(pinballMachines.map(machine => {
+            return(<GameItem
+            key = {machine.id}
+            name = {machine.name}
+            />);
+        }));
+
+}, []);
+    
     return(
         <div className = "games">
             <div className ="container">
@@ -52,13 +60,13 @@ export default function Games(){
                         <div className = "arcade-container">
                             <h3 className = "section-title">Current Arcade Games</h3>
                             <div className = "arcade-games">
-                                {arcadeGameList}
+                                {arcadeList}
                             </div>
                         </div>
                         <div className = "pinball-container">
                             <h3 className = "section-title">Current Pinball Machines</h3>
                             <div className = "pinball-machines">
-                                {pinballMachineList}
+                                {pinballList}
                             </div>
                         </div>
                     </div>

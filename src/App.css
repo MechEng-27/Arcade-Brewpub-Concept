@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #FFFFF0;
+    background-color: white;
 }
 
 .container{
@@ -15,25 +15,25 @@ body {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FFFFF0;
+    background-color: white;
 }
 
 hr.solid{
-    border-top: 5px solid #00ccff;
+    border-top: 5px solid #009fd4;
     margin-bottom: 10px;
 }
 
 hr.thin-line{
-    border-top: 1px solid #00ccff;
+    border-top: 1px solid #009fd4;
 }
 
 hr.menu-thin-line{
-    border-top: 1px solid #00ccff;
+    border-top: 1px solid #009fd4;
     margin-left: 5px;
 }
 
 .section-title{
-    color: #4d4d4b;
+    color: #2b2b2b;
     margin-bottom: 10px;
 }
 

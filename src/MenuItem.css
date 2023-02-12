@@ -8,22 +8,25 @@
     justify-content: space-between;
     width:100%;
     line-height: 2;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 5px;
 }
 
 .menu-item > p{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-left: 5px;
     line-height: 1.2;
 }
 
 .item-container > h4{
-    color: #00ccff;
+    color: #009fd4;
+    font-size: 18.66px;
+    line-height: 1;
 }
 
 #item-price{
-    color: #00ccff;
+    color: #009fd4;
+    font-size: 18.66px;
 }
 
