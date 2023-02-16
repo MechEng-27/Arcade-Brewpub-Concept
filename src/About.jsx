@@ -3,10 +3,10 @@ import "./About.css"
 
 export default function About(){
     return(
-        <section className = "about">
+        <section id = "about">
+            <hr className ="solid"></hr>
             <div className = "container">
-                <hr className ="solid"></hr>
-                <h2 className = "section-title" id = "about-title">About</h2>
+                <h2 className = "section-title">About</h2>
                 <hr className= "thin-line"></hr>
                 <div className = "about-container">
                     <div id = "about-picture-container">
@@ -19,7 +19,7 @@ export default function About(){
                             while retro consoles are on free play. 
                         </p>
                         <p>
-                            We also brew a wide variety of craft beer including classic and modern styles on our 1 bbl 
+                            We brew a wide variety of craft beer including classic and modern styles on our 1 bbl 
                             brewing system. Retro Wave also has a full kitchen serving up all of your favorite pub foods.
                         </p>
                     </div>

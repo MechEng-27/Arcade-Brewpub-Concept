@@ -21,10 +21,9 @@ export default function Contact() {
     };
 
     return(
-        <section className = "contact">
+        <section id = "contact">
             <div className = "container">
-                <h2 className = "section-title" id = "contact-title">
-                    Contact Retro Wave</h2>
+                <h2 className = "section-title">Contact Retro Wave</h2>
                 <hr className = "thin-line"></hr>
                 <div className = "contact-main-container">
                     <div id = "feedback-questions">

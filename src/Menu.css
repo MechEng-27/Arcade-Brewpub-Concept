@@ -1,3 +1,7 @@
+#menu{
+    padding-top: 35px;
+}
+
 .menu-tabs{
     display:flex;
     justify-content: flex-start;
