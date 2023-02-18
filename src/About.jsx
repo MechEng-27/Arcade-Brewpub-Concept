@@ -35,7 +35,7 @@ export default function About(){
                         <h3 className = "info-container-heading">Contact</h3>
                         <p>Phone: 414-555-0100 </p>
                         <p>
-                            Have a question? Send us a <a href = "#contact-title" 
+                            Have a question? Send us a <a href = "#contact" 
                             style = {{color: "#009fd4"}}>message</a>
                         </p>
                     </div>

@@ -37,6 +37,10 @@
 
 @media only screen and (max-width: 500px) {
 
+    .name-container {
+        top: 7%;
+    }
+
     .name-container > p{
         color: white;
         font-size: 3.5vw;

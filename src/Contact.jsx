@@ -32,19 +32,18 @@ export default function Contact() {
                         <p>We are listening!!!</p>
                     </div>
                     <form className = "contact-form-container" onSubmit={handleSubmit(onSubmit)}>
-                        <h4 className = "contact-form-label">Name</h4>
                         <div className ="names-container">
                             <div id = "first-name-container">
+                                <h4 className = "contact-form-name-label">First Name</h4>
                                 <input type = "text" id = "first-name" 
                                 {...register("first-name")}>
                                 </input>
-                                <p>First name</p>
                             </div>
                             <div id = "last-name-container">
+                                <h4 className = "contact-form-name-label">Last Name</h4>
                                 <input type = "text" id = "last-name" 
                                 {...register("last-name")}>
                                 </input>
-                                <p>Last Name</p>
                             </div>
                         </div>
                         <h4 className = "contact-form-label">Email *</h4>

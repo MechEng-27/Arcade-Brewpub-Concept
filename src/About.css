@@ -19,16 +19,13 @@
 }
 
 #about-section-text{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
     gap: 20px;
     flex: 1;
     min-width: 300px;
 }
 
 #about-section-text >p {
-    margin-bottom: auto; 
+    margin-bottom: 20px; 
     color: #2b2b2b;
     line-height: 1.2;
 }
