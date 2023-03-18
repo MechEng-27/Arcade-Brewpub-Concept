@@ -9,9 +9,12 @@ export default function Footer(){
                 <p>&#169; Retro Wave {currentYear}</p>
             </div>
             <div className = "social-icons">
-                <img src ="/images/fb.png"></img>
-                <img src ="/images/twit.png"></img>
-                <img src ="/images/insta.png"></img>
+                <img src ="/images/fb.png"
+                alt = "Facebook icon"></img>
+                <img src ="/images/twit.png"
+                alt = "Twitter icon"></img>
+                <img src ="/images/insta.png"
+                alt = "Instagram icon"></img>
             </div>
         </footer>
     );

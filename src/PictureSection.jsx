@@ -12,13 +12,16 @@ export default function PictureSection(){
         <section className = "picture-section">
                 <div className = "picture-container">
                     <img src = "/images/Arcade.jpg" className = {pictureIndex === 1?
-                    "active-picture" : "inactive-picture"}>
+                    "active-picture" : "inactive-picture"}
+                    alt = "Picture of arcade">
                     </img>
                     <img src = "/images/Beer.jpg" className = {pictureIndex === 2?
-                    "active-picture" : "inactive-picture"}>
+                    "active-picture" : "inactive-picture"}
+                    alt = "Picture of beer being poured">
                     </img>
                     <img src = "/images/Chicken.jpg" className = {pictureIndex === 3?
-                    "active-picture" : "inactive-picture"}>
+                    "active-picture" : "inactive-picture"}
+                    alt = "Picture of brewery food">
                     </img>
                 </div>
                 <div className = "container">

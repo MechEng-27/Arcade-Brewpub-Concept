@@ -10,7 +10,9 @@ export default function About(){
                 <hr className= "thin-line"></hr>
                 <div className = "about-container">
                     <div id = "about-picture-container">
-                        <img src ="/images/Pinball.jpg"></img>
+                        <img src ="/images/Pinball.jpg"
+                        alt = "Picture of pinball machine">
+                        </img>
                     </div>
                     <div id = "about-section-text">
                         <p>
@@ -32,12 +34,8 @@ export default function About(){
                         <p>Sunday: Closed</p>
                     </div>
                     <div id = "contact-container">
-                        <h3 className = "info-container-heading">Contact</h3>
-                        <p>Phone: 414-555-0100 </p>
-                        <p>
-                            Have a question? Send us a <a href = "#contact" 
-                            style = {{color: "#009fd4"}}>message</a>
-                        </p>
+                        <h3 className = "info-container-heading">Call Us</h3>
+                        <p>Phone Number: 414-XXX-XXXX </p>
                     </div>
                     <div id = "address-container">
                         <h3 className = "info-container-heading">Address</h3>

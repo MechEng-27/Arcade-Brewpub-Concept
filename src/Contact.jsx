@@ -34,26 +34,34 @@ export default function Contact() {
                     <form className = "contact-form-container" onSubmit={handleSubmit(onSubmit)}>
                         <div className ="names-container">
                             <div id = "first-name-container">
-                                <h4 className = "contact-form-name-label">First Name</h4>
+                                <label htmlFor ="first-name">
+                                    <h4 className = "contact-form-name-label">First Name</h4>
+                                </label>
                                 <input type = "text" id = "first-name" 
                                 {...register("first-name")}>
                                 </input>
                             </div>
                             <div id = "last-name-container">
-                                <h4 className = "contact-form-name-label">Last Name</h4>
+                                <label htmlFor = "last-name">
+                                    <h4 className = "contact-form-name-label">Last Name</h4>
+                                </label>
                                 <input type = "text" id = "last-name" 
                                 {...register("last-name")}>
                                 </input>
                             </div>
                         </div>
-                        <h4 className = "contact-form-label">Email *</h4>
+                        <label htmlFor = "email">
+                            <h4 className = "contact-form-label">Email *</h4>
+                        </label>
                         <input type = "email" id = "email" 
                         {...register("email", {required: true})}>
                         </input>
                         {errors.email?.type === 'required' && <p className = "error" role="alert">
                             Please enter vaild email address
                             </p>}
-                        <h4 className = "contact-form-label">Message *</h4>
+                        <label htmlFor = "message">
+                            <h4 className = "contact-form-label">Message *</h4>
+                        </label>
                         <textarea id = "message" 
                         {...register("message", {required:true})}>
                         </textarea>
